@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your details"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/age_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:inputType="number"
+            android:importantForAutofill="yes"
+            android:padding="10dp"
+            android:minHeight="48dp"/>
+
+        <EditText
+            android:id="@+id/gender_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gender"
+            android:inputType="text"
+            android:importantForAutofill="yes"
+            android:padding="10dp"
+            android:minHeight="48dp"/>
+
+        <EditText
+            android:id="@+id/height_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height (cm)"
+            android:inputType="number"
+            android:importantForAutofill="yes"
+            android:padding="10dp"
+            android:minHeight="48dp"/>
+
+        <EditText
+            android:id="@+id/weight_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Weight (kg)"
+            android:inputType="number"
+            android:importantForAutofill="yes"
+            android:padding="10dp"
+            android:minHeight="48dp"/>
+
+        <CheckBox
+            android:id="@+id/smoking_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you smoke?"
+            android:importantForAutofill="yes"/>
+
+        <CheckBox
+            android:id="@+id/drinking_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do you drink alcohol?"
+            android:importantForAutofill="yes"/>
+
+        <Button
+            android:id="@+id/upload_photo_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Skin Photo"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"
+            android:minHeight="48dp"/>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginTop="16dp"
+            android:padding="10dp"
+            android:minHeight="48dp"/>
+
+    </LinearLayout>
+</ScrollView>

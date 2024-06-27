@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skin Beauty Application"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Skin Beauty"
+        android:textSize="18sp"
+        android:layout_marginBottom="40dp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/button_start_analysis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Skin Analysis"/>
+</LinearLayout>
